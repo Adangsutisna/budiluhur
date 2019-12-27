@@ -31,7 +31,7 @@
 	$loginhstr=trim($_POST['loginhs']); 
 	$loginhs = htmlentities(htmlspecialchars($loginhstr), ENT_QUOTES);
 
-	if($loginhs=='harussukses') {
+	if($loginhs=='login') {
 		
 		$_SESSION['loginhsqu'] = $loginhs;
 		
